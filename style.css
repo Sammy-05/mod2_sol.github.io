@@ -1,0 +1,43 @@
+#block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding: 0px 40px;
+    
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+#box1, #box2, #box3{
+    background-color: gray;
+    margin: 0 20px;
+    border: solid black 3px;
+    padding: 0;
+}
+
+h2{
+    float: right;
+    margin: 0;
+    padding: 5px 20px;
+    background-color: rgba(168, 112, 149, 0.996);
+    border-left: solid black 3px;
+    border-bottom: solid black 3px;
+}
+
+#box2 h2{
+    background-color: rgb(159, 81, 81);
+}
+
+#box3 h2{
+    background-color: rgb(192, 184, 92);
+}
+
+p{
+    padding:20px 20px 0px 20px;
+}
+
